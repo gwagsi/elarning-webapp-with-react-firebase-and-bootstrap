@@ -27,6 +27,13 @@ import Landing from "views/Landing.jsx"; //imported landing view..
 
 const dashboardRoutes = [
   {
+    path: "/home",
+    name: "HomePage",
+    icon: "pe-7s-home",
+    component: homepage,
+    layout: "/home"
+  },
+  {
     path: "/dashboard",
     name: "Dashboard",
     icon: "pe-7s-graph",
